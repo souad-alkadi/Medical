@@ -8,23 +8,24 @@
 </head>
 <body>
     <div>
-        <form>
+        <form action="" method="post">
             <div>
               <label for="inputText">Text</label>
               <div>
-                <input type="text">
+                <input type="text" id="inputText" name="user">
               </div>
+              
             </div>
             <div>
               <label for="inputEmail">Email</label>
               <div>
-                <input type="email">
+                <input type="email" id="inputEmail" name="user_email">
               </div>
             </div>
             <div>
               <label for="inputPassword">Password</label>
               <div>
-                <input type="password">
+                <input type="password" id="inputPassword" name="pass">
               </div>
             </div>
             <div>
@@ -78,13 +79,13 @@
             <div>
               <label for="inputColor">Color Picker</label>
               <div>
-                <input type="color" id="exampleColorInput" value="#4154f1" title="Choose your color">
+                <input type="color" id="exampleColorInput" value="#EEEEEE" title="Choose your color">
               </div>
             </div>
             <div>
               <label for="inputPassword">Textarea</label>
               <div>
-                <textarea style="height: 100px"></textarea>
+                <textarea style="height: 100px" cols="200"></textarea>
               </div>
             </div>
             <fieldset>
@@ -143,7 +144,9 @@
               <div>
                 <select name="choose">
                   <option selected>Open this select menu</option>
+                  <optgroup>
                   <option value="1">One</option>
+                  </optgroup>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
@@ -236,12 +239,6 @@
               </div>
 
 
-
-
-
-
-
-
             <div>
               <label>Submit Button</label>
               <div>
@@ -252,7 +249,7 @@
                 <label>Reset Button</label>
                 <div>
                   <button type="reset">Cancel</button>
-                  <button type="reset">Cancel</button>
+                 
                 </div>
               </div>
           </form>
