@@ -1,4 +1,59 @@
-.mytable{
-    color:chartreuse;
+/* div h2{
+    background-color: cornflowerblue;
+}
+#mydiv thead{
+    background-color: blueviolet;
+}
+table.myclass{
+    background-color: yellow;
+}
+.test.myclass{
+    background-color: crimson;
+}
 
+div table{
+    background-color: blue;
+}
+h1,div h2{
+    color: brown;
+    font-size: xx-large;
+}
+
+ div{
+    border: 1px solid #000000;
+ }
+ #mydiv > p{
+    font-size: x-large;
+    color: red;
+    font-weight: bolder;
+ }
+ 
+ #mydiv ~ div{
+    background-color: blue;
+ }
+
+
+#mydiv h2:hover{
+    background-color: blue;
+}
+#mydiv h2::selection{
+    background-color: red;
+}
+
+#mydiv h2::after{
+    content: "Hyyyyyy ";
+    background-color: red;
+}
+
+
+input:focus{
+    background-color: tomato;
+}
+
+#mydiv p::first-line{
+    color: yellow;
+}
+*/
+[bs-data="my test 3"]{
+    background-color: red;
 }
