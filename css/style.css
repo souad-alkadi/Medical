@@ -57,3 +57,58 @@ input:focus{
 [bs-data="my test 3"]{
     background-color: red;
 }
+
+.general-style{
+    background-color: aliceblue;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+    background: aliceblue url('../images/background.jpg') no-repeat right top;
+    width: 100%;
+    height: 500px;
+
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+    border-radius: 15px;
+    border: 5px solid red;
+
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    /* margin: top right bottom left;   */
+
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    /* padding: top right bottom left;   */
+
+    color: blue;
+    text-align: center;
+    text-align-last: left;
+    direction: rtl;
+    vertical-align: middle;
+
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+    text-decoration-thickness: 25%;
+
+    text-decoration: underline red double 5px;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: italic;
+    font-size: 14px;
+    
+
+}
