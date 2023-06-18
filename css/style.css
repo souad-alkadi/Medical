@@ -59,14 +59,14 @@ input:focus{
 }
 
 .general-style{
-    background-color: aliceblue;
+    /* background-color: aliceblue;
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-position: right top;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
-    background: aliceblue url('../images/background.jpg') no-repeat right top;
-    width: 100%;
+    /* background: aliceblue url('../images/background.jpg') no-repeat right top; */
+    /* width: 100%; */
     height: 500px;
 
     border-style: dashed;
@@ -74,28 +74,28 @@ input:focus{
     border-color: red;
     border-top-style: dotted;
     border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: double;
 
-    border-radius: 15px;
-    border: 5px solid red;
+    border-radius: 50px;
+    /* border: 5px solid red; */
 
 
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 80px;  */
     /* margin: top right bottom left;   */
+    /* margin: 100px 30px 200px 300px; */
 
-    padding-top: 50px;
+     /* padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 80px;  */
     /* padding: top right bottom left;   */
 
     color: blue;
-    text-align: center;
-    text-align-last: left;
+    text-align: center;    
     direction: rtl;
     vertical-align: middle;
 
@@ -109,6 +109,13 @@ input:focus{
     font-family: "Lucida Console", "Courier New", monospace;
     font-style: italic;
     font-size: 14px;
+    font-weight: bolder;
     
 
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: red;
+    border-style: dashed;
+    border-width: 0;
 }
