@@ -1,3 +1,24 @@
 .carousel-inner img{
     height: 500px;
 }
+.nav-link{
+    color: white;
+}
+.navbar-nav .nav-link.active{ /* the element with the class .nav-link and class active: */
+    color: white;
+    font-weight: 900;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.prices{
+    background-color: gainsboro;
+    height: 500px;
+
+}
+.col-3,.col-6{
+    border: 2px solid #000000;
+    font-size: xx-large;
+    text-align: center;
+}
